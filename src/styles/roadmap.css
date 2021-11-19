@@ -1,0 +1,248 @@
+.roadtlt{
+  font-family: LuckiestGuy;
+  font-size: 110px;
+  text-align: center;
+}
+
+.pt-8{
+  padding-top: 8rem;
+  background-size: 100% 100%;
+}
+
+.w50{
+  width: 50%;
+}
+
+.roadtxt{
+  text-align: left;
+}
+
+.roadgap{
+  padding-top: 8rem;
+}
+
+.roadtxt h2{
+  padding-right: 6rem;
+  padding-left: 6rem;
+  font-family: LuckiestGuy;
+  font-size: 50px;
+}
+
+.roadtxt p{
+  padding-left: 6rem;
+  padding-right: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  word-break: break-all;
+}
+
+.roadtxt-1{
+  text-align: right;
+}
+
+.roadtxt-1 h2{
+  padding-left: 6rem;
+  padding-right: 6rem;
+  font-family: LuckiestGuy;
+  font-size: 50px;
+}
+
+.roadtxt-1 p{
+  padding-left: 6rem;
+  padding-right: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  word-break: break-all;
+}
+
+.minttxt{
+  font-family: LuckiestGuy;
+  font-size: 110px;
+  text-align: center;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.mintbox{
+  width: 925px;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.24) 100%);
+}
+
+.amount{
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 200px;
+}
+
+.subtotal{
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 78px;
+}
+
+.amtxt{
+  font-family: LuckiestGuy;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.calbtn{
+  background-color: #00000000;
+  border: none;
+  color: black;
+  font-size: 60px;
+  margin-top: -15px;
+}
+.calbtn-minus {
+  padding-right: 12px;
+}
+.calbtn-plus {
+  padding-left: 12px;
+}
+
+.display{
+  width: 190px;
+  height: 90px;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 1.8em;
+}
+
+.display1{
+  width: 20rem;
+  height: 90px;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 1.8em;
+}
+
+.ratiotxt{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: LuckiestGuy;
+	font-size: 50px;
+	text-align: center;
+}
+
+.minbtn{
+	margin-left: 10rem;
+	margin-right: 10rem;
+	margin-bottom: 7.5rem;
+	background-color: #D3D3D3;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	border-radius: 20px;
+	font-family: LuckiestGuy;
+	border: none;
+	padding: 0.5rem 11rem;
+  white-space: nowrap;
+}
+
+.minbtn:hover {
+  background-color: #861212;
+}
+
+.black-bar{
+	background: #131313;
+  border: 3px solid #000000;
+	width: 287px;
+	margin-top: 5rem;
+	margin-bottom: 12rem;
+}
+
+.pb-10{
+	padding-bottom: 10rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .amtxt{font-size: 45px;}
+  .roadtlt{font-size: 95px;}
+  .minbtn{font-size: 40px; margin-left: 14rem; margin-right: 8rem; margin-bottom: 6rem;padding: 0.5rem 9rem;}
+  .ratiotxt{font-size: 40px;margin-top: 2rem; margin-bottom: 2rem;}
+  .black-bar{width: 250px;margin-top: 4rem;margin-bottom: 10rem;}
+  .mintbox{width: 875px;margin-top: 4rem;margin-bottom: 8rem;}
+  .display, .display1{ width: 190px;height: 80px; font-size: 45px;border-radius: 20px;}
+  .minttxt{font-size: 100px;}
+  .roadtxt h2, .roadtxt-1 h2{padding-right: 5rem;padding-left: 5rem;font-size: 50px;}
+  .roadtxt-1 p, .roadtxt p{padding-left: 5rem;padding-right: 5rem;font-size: 22px;}
+  .roadgap{padding-top: 7rem;}
+  .amount{margin-left: 8rem;margin-right: 8rem;margin-top: 180px;}
+  .subtotal{margin-left: 8rem;margin-right: 8rem;margin-top: 65px;}
+}
+@media only screen and (max-width: 1200px) {
+  .amtxt{font-size: 40px;}
+  .roadtlt{font-size: 80px;}
+  .minbtn{font-size: 30px; margin-left: 11rem; margin-right: 6rem; margin-bottom: 4.5rem;padding: 0.5rem 8rem;}
+  .ratiotxt{font-size: 30px;margin-top: 1rem; margin-bottom: 1rem;}
+  .black-bar{width: 200px;margin-top: 3rem;margin-bottom: 9rem;}
+  .mintbox{width: 825px;margin-top: 3.5rem;margin-bottom: 7rem;}
+  .display, .display1{ width: 160px;height: 70px; font-size: 40px;border-radius: 18px;}
+  .minttxt{font-size: 90px;}
+  .roadtxt h2, .roadtxt-1 h2{padding-right: 5rem;padding-left: 5rem;font-size: 40px;}
+  .roadtxt-1 p, .roadtxt p{padding-left: 4rem;padding-right: 4rem;font-size: 20px;}
+  .roadgap{padding-top: 6rem;}
+  .amount{margin-left: 6rem;margin-right: 6rem;margin-top: 160px;}
+  .subtotal{margin-left: 6rem;margin-right: 6rem;margin-top: 50px;}
+}
+@media only screen and (max-width: 992px) {
+  .amtxt{font-size: 35px;}
+  .roadtlt{font-size: 65px;}
+  .minbtn{font-size: 30px; margin-left: 10rem; margin-right: 5rem; margin-bottom: 4rem;padding: 0.5rem 6rem;}
+  .ratiotxt{font-size: 30px;margin-top: 1rem; margin-bottom: 1rem;}
+  .black-bar{width: 200px;margin-top: 2rem;margin-bottom: 7rem;}
+  .mintbox{width: 650px;margin-top: 3rem;margin-bottom: 6rem;}
+  .calbtn { margin-top: -25px; }
+  .display, .display1{ width: 140px;height: 60px; font-size: 35px;border-radius: 15px;}
+  .minttxt{font-size: 75px;}
+  .roadtxt h2, .roadtxt-1 h2{padding-right: 4rem;padding-left: 4rem;font-size: 30px;}
+  .roadtxt-1 p, .roadtxt p{padding-left: 3rem;padding-right: 3rem;font-size: 18px;}
+  .roadgap{padding-top: 4rem;}
+  .amount{margin-left: 4rem;margin-right: 4rem;margin-top: 140px;}
+  .subtotal{margin-left: 4rem;margin-right: 4rem;margin-top: 40px;}
+}
+@media only screen and (max-width: 768px) {
+  .amtxt{font-size: 30px;}
+  .roadtlt{font-size: 50px;}
+  .minbtn{font-size: 25px; margin-left: 5rem; margin-right: 4rem; margin-bottom: 3rem;padding: 0.5rem 4rem;}
+  .ratiotxt{font-size: 25px;margin-top: 0rem; margin-bottom: 0rem;}
+  .black-bar{width: 150px;margin-top: 1rem;margin-bottom: 5rem;}
+  .mintbox{width: 400px;margin-top: 2.5rem;margin-bottom: 5rem;}
+  .calbtn { font-size: 50px; margin-top: -20px; }
+  .display, .display1{ width: 120px;height: 50px; font-size: 30px;border-radius: 12px;}
+  .minttxt{font-size: 50px;}
+  .roadtxt h2, .roadtxt-1 h2{padding-right: 3rem;padding-left: 3rem;font-size: 25px;}
+  .roadtxt-1 p, .roadtxt p{padding-left: 2rem;padding-right: 2rem;font-size: 16px;}
+  .roadgap{padding-top: 2rem;}
+  .amount{margin-left: 2rem;margin-right: 2rem;margin-top: 100px;}
+  .subtotal{margin-left: 2rem;margin-right: 2rem;margin-top: 10px;}
+  .calbtn-minus { padding-right: 6px; }
+  .calbtn-plus { padding-left: 6px; }
+}
+@media only screen and (max-width: 576px) {
+  .amtxt{font-size: 25px;}
+  .roadtlt{font-size: 35px;}
+  .minbtn{font-size: 20px; margin-left: 2rem; margin-right: 3rem; margin-bottom: 2.5rem;padding: 0.5rem 3rem;}
+  .ratiotxt{font-size: 20px;margin-top: 0rem; margin-bottom: 0rem;}
+  .black-bar{width: 125px;margin-top: 0rem;margin-bottom: 3rem;}
+  .mintbox{width: 250px;margin-top: 1.5rem;margin-bottom: 4rem;}
+  .calbtn { margin-top: -25px; }
+  .display, .display1{ width: 100px;height: 40px; font-size: 25px;border-radius: 8px;}
+  .minttxt{font-size: 40px;}
+  .roadtxt h2, .roadtxt-1 h2{padding-right: 2rem;padding-left: 2rem;font-size: 20px;}
+  .roadtxt-1 p, .roadtxt p{padding-left: 1rem;padding-right: 1rem;font-size: 14px;}
+  .roadgap{padding-top: 1rem;}
+  .amount{margin-left: 0rem;margin-right: 0rem;margin-top: 0px;}
+  .subtotal{margin-left: 0rem;margin-right: 0rem;margin-top: 0px;}
+}

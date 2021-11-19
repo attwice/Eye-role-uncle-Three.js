@@ -1,0 +1,22 @@
+@font-face {
+  font-family: LuckiestGuy;
+  src: url(./assets/fonts/LuckiestGuy-Regular.ttf);
+}
+@font-face {
+  font-family: Heebo;
+  src: url(./assets/fonts/Heebo-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
