@@ -6,7 +6,6 @@ import { CHANGE_TIME } from '../constants/actionTypes';
 const Nftsale = () => {
   const dispatch = useDispatch();
   const mintInfo = useSelector(state => state.mint);
-  const [publicsale, setPublicsale] = useState(false);
 
   let year = new Date().getFullYear();
   const difference = +new Date(`20 November ${year} 20:00:00 UTC`) - +new Date(); 
