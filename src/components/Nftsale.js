@@ -67,7 +67,7 @@ const Nftsale = () => {
     <div className="nftBg" style={{ backgroundImage: "url('./imgs/Rectangle 4 (1).png')"}}>
       <div className="d-flex justify-content-center"> 
         <div className="eyeimsize">
-          <img className="eyeimfit" src="./imgs/eye-1-rolling 1.png" alt="" />
+          <img className="eyeimfit" src="./imgs/eye-1-rolling-1.gif" alt="" />
         </div>
         <div className="text-center eyepan" style={{ backgroundImage: "url('./imgs/Frame2 1.png')"}}>
           <p className="eyetext">EYE-ROLL UNCLE<br/>10K NFT SALE</p>
@@ -93,7 +93,7 @@ const Nftsale = () => {
           <a href="#nft-bg" className={mintInfo.publicsale ? 'mintbtn' : 'mintbtn disabled'}>MINT</a>
         </div>
         <div className="eyedown eyeimsize">
-          <img className="eyeimfit" src="./imgs/eye-2-rolling 1.png" alt="" />
+          <img className="eyeimfit" src="./imgs/eye-1-rolling-2.gif" alt="" />
         </div>       
       </div>
     </div>

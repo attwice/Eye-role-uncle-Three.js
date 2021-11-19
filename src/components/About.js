@@ -12,7 +12,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <img className="uncleimg" src="./imgs/UncleGif.png" alt=""></img>
+            <img className="uncleimg" src="./imgs/UncleGif.gif" alt=""></img>
           </div>
         </div>
         <div className="d-flex justify-content-between">
