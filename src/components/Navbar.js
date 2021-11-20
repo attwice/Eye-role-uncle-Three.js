@@ -34,38 +34,54 @@ const Navbar = () => {
     const walletResponse = await connectWallet();    
     setWallet(walletResponse.address);
   };
+//stickey
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY >= 86) {
+      setSticky(true);
+    } else if (window.scrollY < 85) {
+      setSticky(false);
+    }
+  }  
 
   return (
-    <div className="navBg">
-      <div className="container d-flex justify-content-between aligncenter">        
-        <div>
-          <div className="navlogo ">
-            <a href="/">
-              <img src="./imgs/NFT 1 emoji-EYES ONLY 1 1.png" className="logo" alt="eyeroll"/>
-            </a>            
+    <div className={`header${sticky ? ' sticky' : ''}`}>
+      <div className="navBg">
+        <div className="container d-flex justify-content-between aligncenter">        
+          <div>
+            <div className="navlogo ">
+              <a href="/">
+                <img src="./imgs/NFT 1 emoji-EYES ONLY 1 1.png" className="logo" alt="eyeroll"/>
+              </a>            
+            </div>
+            <div className="text-center">
+              <p className="logotxt">Eye-Roll<b>uncle</b></p>
+            </div>
+          </div>              
+          <div className="navicon d-flex flex-row-reverse">              
+            <button className="connetbtn" onClick={connectWalletPressed}>
+              {walletAddress.length > 0 ? (                    
+                "" +
+                String(walletAddress).substring(0, 6) +
+                "..." +
+                String(walletAddress).substring(38)
+                ) : (
+                  <span>Connect</span>
+                )
+              }   
+            </button>        
+            <a href="/#" className="iconbet">
+              <FontAwesomeIcon icon={faTwitter} color="#000000"/>
+            </a>
+            <a href="/#" className="iconbet">
+              <FontAwesomeIcon icon={faDiscord} color="#000000"/>
+            </a>
           </div>
-          <div className="text-center">
-            <p className="logotxt">Eye-Roll<b>uncle</b></p>
-          </div>
-        </div>              
-        <div className="navicon d-flex flex-row-reverse">              
-          <button className="connetbtn" onClick={connectWalletPressed}>
-            {walletAddress.length > 0 ? (                    
-              "" +
-              String(walletAddress).substring(0, 6) +
-              "..." +
-              String(walletAddress).substring(38)
-              ) : (
-                <span>Connect</span>
-              )
-            }   
-          </button>        
-          <a href="/#" className="iconbet">
-            <FontAwesomeIcon icon={faTwitter} color="#000000"/>
-          </a>
-          <a href="/#" className="iconbet">
-            <FontAwesomeIcon icon={faDiscord} color="#000000"/>
-          </a>
         </div>
       </div>
     </div>

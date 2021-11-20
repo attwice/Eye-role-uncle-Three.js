@@ -8,7 +8,7 @@ const Nftsale = () => {
   const mintInfo = useSelector(state => state.mint);
 
   let year = new Date().getFullYear();
-  const difference = +new Date(`20 November ${year} 20:00:00 UTC`) - +new Date(); 
+  const difference = +new Date(`21 November ${year} 10:00:00 UTC`) - +new Date(); 
    
   let initialDays = 0;
   let initialHours = 0; 
@@ -72,25 +72,27 @@ const Nftsale = () => {
         <div className="text-center eyepan" style={{ backgroundImage: "url('./imgs/Frame2 1.png')"}}>
           <p className="eyetext">EYE-ROLL UNCLE<br/>10K NFT SALE</p>
           <p className="eyetext-s">STARTS IN</p>
-          <div className="eyecal d-flex justify-content-between">
-            <div className="eyetext-n">
-              <p>{day}</p>
-              <p className="eyetext-d">days</p>
-            </div>
-            <div className="eyetext-n">
-              <p>{hour}</p>
-              <p className="eyetext-d">hours</p>
-            </div>
-            <div className="eyetext-n">
-              <p>{minute}</p>
-              <p className="eyetext-d">minutes</p>
-            </div>
-            <div className="eyetext-n">
-              <p>{second}</p>
-              <p className="eyetext-d">seconds</p>
-            </div>
-          </div>
-          <a href="#nft-bg" className={mintInfo.publicsale ? 'mintbtn' : 'mintbtn disabled'}>MINT</a>
+          {!mintInfo.publicsale ?
+            <div className="eyecal d-flex justify-content-between">
+              <div className="eyetext-n">
+                <p>{day}</p>
+                <p className="eyetext-d">days</p>
+              </div>
+              <div className="eyetext-n">
+                <p>{hour}</p>
+                <p className="eyetext-d">hours</p>
+              </div>
+              <div className="eyetext-n">
+                <p>{minute}</p>
+                <p className="eyetext-d">minutes</p>
+              </div>
+              <div className="eyetext-n">
+                <p>{second}</p>
+                <p className="eyetext-d">seconds</p>
+              </div>
+            </div> : <div className="mint-status px-5 text-white">publicsale launched</div>
+          }
+          <a href="#nft-bg" className={mintInfo.publicsale ? 'mintbtn mintbtn-active' : 'mintbtn disabled'}>MINT</a>
         </div>
         <div className="eyedown eyeimsize">
           <img className="eyeimfit" src="./imgs/eye-1-rolling-2.gif" alt="" />
