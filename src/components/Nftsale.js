@@ -71,7 +71,7 @@ const Nftsale = () => {
         </div>
         <div className="text-center eyepan" style={{ backgroundImage: "url('./imgs/Frame2 1.png')"}}>
           <p className="eyetext">EYE-ROLL UNCLE<br/>10K NFT SALE</p>
-          <p className="eyetext-s">STARTS IN</p>
+          <p className="eyetext-s"></p>
           {!mintInfo.publicsale ?
             <div className="eyecal d-flex justify-content-between">
               <div className="eyetext-n">
@@ -90,7 +90,7 @@ const Nftsale = () => {
                 <p>{second}</p>
                 <p className="eyetext-d">seconds</p>
               </div>
-            </div> : <div className="mint-status px-5 text-white">publicsale launched</div>
+            </div> : <div className="mint-status px-5 text-white"></div>
           }
           <a href="#nft-bg" className={mintInfo.publicsale ? 'mintbtn mintbtn-active' : 'mintbtn disabled'}>MINT</a>
         </div>

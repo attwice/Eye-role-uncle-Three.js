@@ -150,8 +150,13 @@
   white-space: nowrap;
 }
 
-.minbtn:hover {
+
+.minbtn:hover, .mint-active {
   background-color: #861212;
+}
+
+.minbtn:hover {
+  opacity: 0.8;
 }
 
 .black-bar{

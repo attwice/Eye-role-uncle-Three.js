@@ -102,7 +102,7 @@ const Mint = () => {
             : <div></div>
           }
           {(!mintInfo.publicsale) ? <button className="minbtn" onClick={onMintHandle}>MINT NOW</button> 
-            : <button className="minbtn" onClick={onMintPressed}>MINT NOW</button>
+            : <button className="minbtn mint-active" onClick={onMintPressed}>MINT NOW</button>
           }			
           <div className="amtxt"> MINT LIMIT is 15 PER TRANSACTION</div>
           <div className="d-flex justify-content-center"><p className="black-bar"></p></div>
