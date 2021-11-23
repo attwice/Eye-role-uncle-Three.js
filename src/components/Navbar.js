@@ -55,7 +55,7 @@ const Navbar = () => {
         <div className="container d-flex justify-content-between aligncenter">        
           <div>
             <div className="navlogo ">
-              <a href="/">
+              <a href="https://opensea.io">
                 <img src="./imgs/NFT 1 emoji-EYES ONLY 1 1.png" className="logo" alt="eyeroll"/>
               </a>            
             </div>
