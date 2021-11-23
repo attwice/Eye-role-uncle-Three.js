@@ -75,10 +75,10 @@ const Navbar = () => {
                 )
               }   
             </button>        
-            <a href="/#" className="iconbet">
+            <a href="https://twitter.com/frogzverse" className="iconbet">
               <FontAwesomeIcon icon={faTwitter} color="#000000"/>
             </a>
-            <a href="/#" className="iconbet">
+            <a href="https://discord.com/invite/frogverse" className="iconbet">
               <FontAwesomeIcon icon={faDiscord} color="#000000"/>
             </a>
           </div>
