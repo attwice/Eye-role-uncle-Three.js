@@ -159,6 +159,15 @@
   opacity: 0.8;
 }
 
+.mint-disabled {
+  background-color: #D3D3D3;
+}
+
+.mint-disabled:hover {
+  background-color: #D3D3D3 !important;
+  opacity: 1 !important;
+}
+
 .black-bar{
 	background: #131313;
   border: 3px solid #000000;
